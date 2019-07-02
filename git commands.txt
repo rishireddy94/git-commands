@@ -1,5 +1,24 @@
-git init
-git clone <url link>
-git add <file name>
-git status
-git commit -m "commit message"
+git init    -----initializing git into local workspace
+git clone <url link> ----- clone repository from remote to local machines
+git add <file name>-----to add files into repository locally
+git status   -----to check the status on state of files
+git commit -m "commit message"    -----to committing files into repository locally
+
+#git branch
+
+git branch      -----to list branches
+git branch -a   -----to list all branches
+git branch <brnach name>      ----create new branch
+git rm -r <file name>   -----to remove file from repository locally
+git brach -d <file name> ----to delete brach from master
+git push origin --delete <file name>  -----to delete branch in remote repository
+git checkout -b <branch name>  -----to create branch and switched to it
+git checkout -b <branch name> origin/<benach name>  -----to clone a remote branch and switch to it
+git checkout <branch name>   -----to switch to a branch
+git checkout -   -----to switched to branch last checked out
+git checkout -- <file name>    -----to discard changes to a file
+git merge <branch name>   ----merge a branch into the active branch
+git merge <source branch> <target branch>    ---to merge branch into target branch
+git stash   -----stash changes in dirty working directory
+git stash clear   -----remove all stashes entries
+
