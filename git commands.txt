@@ -22,3 +22,14 @@ git merge <source branch> <target branch>    ---to merge branch into target bran
 git stash   -----stash changes in dirty working directory
 git stash clear   -----remove all stashes entries
 
+Sharing & Updating Projects
+
+git push origin <branch name> -----to push the changes from local machine to remote repositor
+git push -u origin <beanch name>   ----to push changes to remote repository
+git push    ----push changes to remote repository
+git push origin --delete <beanch master>    -----to delete brach in remote repository
+git pull   -----update local repository to the newest commit
+git pull origin <branch>   -----pull changes from remote repository
+git remote add origin <url link>    -----add a remote repository
+git remote set-url origin <url link>   ----set a repository origin to ssh
+
