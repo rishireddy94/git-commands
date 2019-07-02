@@ -1,0 +1,5 @@
+git init
+git clone <url link>
+git add <file name>
+git status
+git commit -m "commit message"
